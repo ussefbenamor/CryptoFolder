@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="fab_margin">16dp</dimen>
+  <dimen name="fab_margin_with_ads">56dp</dimen>
+  <dimen name="ic_purchase_overflow_width">20dp</dimen>
+  <dimen name="ic_purchase_overflow_height">30dp</dimen>
+
+  <!-- distance in depending pixels  -->
+  <dimen name="dimen_0dp">0dp</dimen>
+  <dimen name="dimen_2dp">2dp</dimen>
+  <dimen name="dimen_4dp">4dp</dimen>
+  <dimen name="dimen_6dp">6dp</dimen>
+  <dimen name="dimen_8dp">8dp</dimen>
+  <dimen name="dimen_12dp">12dp</dimen>
+  <dimen name="dimen_16dp">16dp</dimen>
+  <dimen name="dimen_20dp">20dp</dimen>
+  <dimen name="dimen_24dp">24dp</dimen>
+  <dimen name="dimen_32dp">32dp</dimen>
+
+  <!-- text size sp  -->
+  <dimen name="dimen_12sp">12sp</dimen>
+  <dimen name="dimen_14sp">14sp</dimen>
+  <dimen name="dimen_16sp">16sp</dimen>
+  <dimen name="dimen_18sp">18sp</dimen>
+  <dimen name="dimen_20sp">20sp</dimen>
+  <dimen name="dimen_22sp">22sp</dimen>
+  <dimen name="dimen_24sp">24sp</dimen>
+  <dimen name="dimen_26sp">26sp</dimen>
+  <dimen name="dimen_28sp">28sp</dimen>
+  <dimen name="dimen_30sp">30sp</dimen>
+  <dimen name="dimen_32sp">32sp</dimen>
+  <dimen name="dimen_72dp">72dp</dimen>
+  <dimen name="dimen_280dp">280dp</dimen>
+  <dimen name="dimen_64dp">64dp</dimen>
+  <dimen name="dimen_42sp">42sp</dimen>
+  <dimen name="dimen_36dp">36dp</dimen>
+  <dimen name="dimen_42dp">42dp</dimen>
+  <dimen name="logo_mobile_width">80dp</dimen>
+  <dimen name="logo_mobile_height">80dp</dimen>
+  <dimen name="dimen_48dp">48dp</dimen>
+  <dimen name="dimen_80dp">80dp</dimen>
+</resources>

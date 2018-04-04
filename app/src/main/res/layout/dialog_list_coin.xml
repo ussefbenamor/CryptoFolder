@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/LinearLayout01"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+  <EditText
+    android:id="@+id/dialog_list_coin_edit_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dimen_16dp"
+    android:drawableLeft="@drawable/ic_search"
+    android:drawableStart="@drawable/ic_search"
+    android:gravity="start"
+    android:hint="@string/search_a_coin"
+    android:maxLines="1">
+  </EditText>
+  <android.support.v7.widget.RecyclerView
+    android:id="@+id/recycler_dialog_coins"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="100dp"
+    android:clipToPadding="false"
+    tools:listitem="@layout/row_coin_simple">
+  </android.support.v7.widget.RecyclerView>
+</LinearLayout>

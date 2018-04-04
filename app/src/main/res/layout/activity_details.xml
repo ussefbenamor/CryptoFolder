@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <android.support.design.widget.CoordinatorLayout
+    android:id="@+id/activity_details_coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey"
+    tools:context=".view.activity.DetailsActivity">
+
+    <android.support.design.widget.AppBarLayout
+      android:id="@+id/activity_details_appbar_layout"
+      android:layout_width="match_parent"
+      android:layout_height="350dp"
+      android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+      <android.support.design.widget.CollapsingToolbarLayout
+        android:id="@+id/activity_details_collapsing_toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+        <android.support.v7.widget.Toolbar
+          android:id="@+id/activity_details_toolbar"
+          android:layout_width="match_parent"
+          android:layout_height="?attr/actionBarSize"
+          android:background="@color/colorPrimary"
+          android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+          app:layout_collapseMode="pin"
+          app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+          app:title="@string/cryptocoin_name">
+
+
+        </android.support.v7.widget.Toolbar>
+        <include
+          android:id="@+id/activity_details_header"
+          layout="@layout/activity_details_header"/>
+      </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v7.widget.RecyclerView
+      android:id="@+id/activity_details_recycler"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:paddingBottom="@dimen/dimen_32dp"
+      android:clipToPadding="false"
+      app:behavior_overlapTop="64dp"
+      app:layout_behavior="@string/appbar_scrolling_view_behavior"
+      tools:listitem="@layout/row_purchase"/>
+
+    <android.support.design.widget.FloatingActionButton
+      android:id="@+id/activity_details_fab"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="@dimen/fab_margin"
+      android:layout_marginBottom="@dimen/dimen_64dp"
+      android:layout_marginLeft="@dimen/fab_margin"
+      android:layout_marginRight="@dimen/fab_margin"
+      android:layout_gravity="bottom|end"
+      android:scaleType="center"
+      app:srcCompat="@drawable/ic_add_white"
+      tools:ignore="VectorDrawableCompat"/>
+
+  </android.support.design.widget.CoordinatorLayout>
+  <include
+    android:id="@+id/activity_details_ad_view"
+    layout="@layout/ad_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"/>
+</RelativeLayout>
